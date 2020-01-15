@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Log-in</title>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="home.css">
+<script src="https://kit.fontawesome.com/fca9623de7.js" ></script>
+<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+<script>
+		function openSlideMenu(){
+		document.getElementById('menu').style.width='86%';
+		document.getElementById('content').style.marginLeft='86%';
+		}
+		function closeSlideMenu(){
+		document.getElementById('menu').style.width='0px';
+		document.getElementById('content').style.marginLeft='0px';
+		}
+	</script>
+</head>
+<body>
+
+
+<div id="content">
+	<span class="slide">
+		<a href="#" onclick="openSlideMenu()">
+			<i class="fas fa-bars"></i>
+			</a>
+		</span>
+
+<div id="menu" class="nav">
+	<a href="#" class = "close"   onclick="closeSlideMenu()">
+		<form class="navbar-form" role="search">
+    <div class="input-group">
+      <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
+   </div>
+  </form>
+	
+	</a>
+	
+	<a href="#"><i class="far fa-calendar-alt"></i>Exhibitions & Events</a>
+	<a href="#"><i class="fa fa-search"></i>Artists & Artworks</a>
+	<a href="#"><i class="fa fa-search"></i>Collections</a>
+	<a href="#"><i class="fas fa-ticket-alt"></i></i>Plan Your Visit</a>
+	<a href="#"><i class="far fa-id-card"></i></i>Become a Member</a>
+	<a href="#"><i class="fas fa-gift"></i></i>Shop</a>
+</div>
+</br>
+<img src="Image.PNG" >
+	<p style="font-size: 12px"> EXHIBITION</p></br>
+	<span class="master" id="master1">MASTERS</br>
+									OLD AND</br>
+									NEW</span>
+
+	<h5 class="Date" id="date">APRIL 15 - SEPTEMBER 20</h5>
+	
+	<h6 class="floor">FLOOR 6</h6>
+		<span class="street" id="street">151 3RD 	ST</br></span>						
+									
+</div>
+</body>
+</html>
